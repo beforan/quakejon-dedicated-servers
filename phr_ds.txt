@@ -1,0 +1,9 @@
+//TF2 (Prop Hunt Redux) server update
+@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
+@NoPromptForPassword 1
+//login <username> <password>
+//for servers which don't need a login
+login anonymous 
+force_install_dir ./phr_ds
+app_update 232250 validate
+quit
