@@ -1,0 +1,7 @@
+//Natural Selection 2 server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login quakejon1 quakejon1
+force_install_dir ./servers/ns2
+app_update 4940 validate
+quit

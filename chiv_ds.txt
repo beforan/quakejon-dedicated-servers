@@ -1,9 +1,0 @@
-//TF2 server update
-@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
-@NoPromptForPassword 1
-login quakejon1 quakejon1
-//for servers which don't need a login
-//login anonymous 
-force_install_dir ./chiv_ds
-app_update 220070 validate
-quit

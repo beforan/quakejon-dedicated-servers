@@ -1,0 +1,7 @@
+//Chivalry - Medieval Warfare server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login quakejon1 quakejon1
+force_install_dir ./servers/chivalry
+app_update 220070 validate
+quit

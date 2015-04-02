@@ -1,0 +1,7 @@
+//TF2 server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login anonymous 
+force_install_dir ./servers/tf2
+app_update 232250 validate
+quit
