@@ -14,6 +14,8 @@ Currently all complete scripts are structured very similarly. There are two file
 * a Windows powershell script (`.ps1`)
 * a `steamcmd` batch script (`.txt`)
 
+Legacy Batch file equivalents of the PowerShell scripts are currently still available, but may require tweaking due to file renaming and path changes.
+
 ### Powershell script
 This script can only be run if Powershell's `ExecutionPolicy` is at least `Bypass`.
 It can be run from a batch file or shortcut by specifying the `ExecutionPolicy` temporarily for the Powershell session, e.g.
