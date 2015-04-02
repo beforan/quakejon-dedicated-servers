@@ -1,0 +1,7 @@
+//TF2 (Prop Hunt Redux) server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login anonymous 
+force_install_dir ./servers/phr
+app_update 232250 validate
+quit

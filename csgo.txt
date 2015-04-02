@@ -1,0 +1,7 @@
+//CounterStrike: Global Offensive server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login anonymous 
+force_install_dir ./servers/csgo
+app_update 740 validate
+quit

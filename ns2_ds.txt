@@ -1,9 +1,0 @@
-//Natural Selection 2 server update
-@ShutdownOnFailedCommand 1 //set to 0 if updating multiple servers at once
-@NoPromptForPassword 1
-login quakejon1 quakejon1
-//for servers which don't need a login
-//login anonymous 
-force_install_dir ./ns2_ds
-app_update 4940 validate
-quit

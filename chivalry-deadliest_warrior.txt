@@ -1,0 +1,7 @@
+//Chivalry: Deadliest Warrior server update
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login quakejon1 quakejon1
+force_install_dir ./servers/chivalry-deadliest_warrior
+app_update 258680 validate
+quit
