@@ -1,0 +1,22 @@
+{
+    "paths": { 
+        "root": "c:\\dedicated",
+        "scripts": "scripts",
+        "servers": "servers"
+    },
+    "steamcmd": {
+        "exepath": "steamcmd",
+        "login": {
+            "user": "quakejon1",
+            "pass": "quakejon1"
+        }
+    },
+    "srcds": {
+        "rcon": "qj123",
+        "fork": true,
+        "console": true
+    },
+    "servers": { 
+
+    }
+}
