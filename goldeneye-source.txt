@@ -1,0 +1,7 @@
+//Source 2007 server update for GE Source
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login anonymous 
+force_install_dir ./servers/gesource
+app_update 310 validate
+quit
